@@ -1,10 +1,9 @@
 package connect.java.center;
 
-public class Human {
+public class Human extends Mammal {
     // Atributos:
     String name;
-    int age;
-    float height;
+    
 
     // Construtor:
     public Human(String name, int age, float height){
